@@ -41,3 +41,6 @@ test-output/
 **/.classpath
 **/.project
 **/.settings
+
+# Undgå at pushe sensitive configs
+src/main/resources/application.properties
