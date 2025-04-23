@@ -29,4 +29,10 @@ public class StoryController
   {
     return service.addStory(story);
   }
+  @DeleteMapping("id")
+  public void deleteStory(@PathVariable int id)
+  {
+    service.deleteStoryById(id);
+  }
+
 }
